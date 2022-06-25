@@ -1,8 +1,10 @@
 Group Members:
     Daniel Ramos
     Gustavo Matamoros
-    Carlos Pe�afiel
+    Carlos Peñafiel
     Samuel Pantoja
+
+TO run the programm, run the UserProgram file
 
 GitHub link:
     https://github.com/Samuel2800/BackendDevelopmentProject3
