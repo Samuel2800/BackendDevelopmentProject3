@@ -1,6 +1,6 @@
 //Daniel Ramos
 //Gustavo Matamoros
-//Carlos Peñafiel
+//Carlos PeÃ±afiel
 //Samuel Pantoja
 package Methods;
 import java.util.Arrays;
