@@ -1,11 +1,10 @@
 //Daniel Ramos
 //Gustavo Matamoros
-//Carlos Peñafiel
+//Carlos PeÃ±afiel
 //Samuel Pantoja
 package Methods;
 
 import java.awt.Component;
-//Group members Daniel Ramos, Samuel Pantoja, Gustavo Matamoros, Alejandro
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.*;
@@ -402,13 +401,8 @@ public class UserProgram extends javax.swing.JFrame {
     	else if(buttonGroup2.getSelection().getActionCommand().equals("No")) {
     		BigContainer biggie = new BigContainer(0);
     		SmallContainer smalls = new SmallContainer(0);
-    		//int bigAmount = 0;
-    		//int smallAmount = 0;
-    		//double cost = 0;
-    		//showOrderInfo(map);
     		
     		dispose();
-    		//System.exit(0);
     		o.ShowResultsFrame(map);
     	}
     }
