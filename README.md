@@ -4,7 +4,7 @@ Group Members:
     Carlos Peñafiel
     Samuel Pantoja
 
-TO run the programm, run the UserProgram file
+TO run the programm, run the UserProgram.java class file
 
 GitHub link:
     https://github.com/Samuel2800/BackendDevelopmentProject3
