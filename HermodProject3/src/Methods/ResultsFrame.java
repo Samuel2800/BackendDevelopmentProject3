@@ -1,6 +1,6 @@
 //Daniel Ramos
 //Gustavo Matamoros
-//Carlos Peñafiel
+//Carlos PeÃ±afiel
 //Samuel Pantoja
 package Methods;
 import java.awt.Component;
@@ -26,6 +26,7 @@ public class ResultsFrame extends javax.swing.JFrame {
     @SuppressWarnings("unchecked")
     private void initComponents(HashMap<String, Object> map) {
 
+        //Initialization of the labels that are going to be used in the show-information window
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -34,15 +35,18 @@ public class ResultsFrame extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
+        //Creates big container, small container and UserProgram as objects to use in the program
         bigContainer = new BigContainer(0);
         smallContainer = new SmallContainer(0);
         UserProgram UP = new UserProgram();
 
+        //initializes variables that are going to be used in the programm calling methods from the "methods.java" file
         double volume = UP.orderVolume(map);
         double weight = UP.orderWeight(map);
         UP.bestShippingMethod(map, bigContainer, smallContainer);
         double cost = UP.shippingCost(bigContainer, smallContainer);
         
+        //Setting features for the results window
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("ResultsFrame");
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -109,8 +113,10 @@ public class ResultsFrame extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>
+    }
 
+    //This method reads a HashMap with the information that the user provided and gives back information about 
+    //the shipment, this includes the amount of each container used, the total volume, the total weight and the shipping price
     public void ShowResultsFrame(HashMap<String, Object> map) {
 
         try {
